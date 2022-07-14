@@ -8,6 +8,8 @@ public class RunnerFactory {
                 return new Runner201501();
             case "2015_2":
                 return new Runner201502();
+            case "2015_3":
+                return new Runner201503();
             default:
                 System.out.println("This puzzle has not yet been solved!");
                 return null;
